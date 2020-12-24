@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400|Tangerine:wght@400;700&display=swap');
 
 $fontPrimary: 'Open Sans', sans-serif;
-$fontSecondary: 'Raleway', sans-serif;
+$fontSecondary: 'Tangerine', cursive;
 $fontSize: 1.2rem;
+
+h1 {
+  margin: 100px 0 60px;
+}
+h2 {
+  margin: 12px 0;
+  font-family: $fontSecondary;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
